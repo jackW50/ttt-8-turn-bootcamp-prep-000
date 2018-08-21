@@ -40,6 +40,6 @@ def turn(board)
     display_board(board)
     
   else
-    "Please pick a number between 1 and 9:"
+    turn(board)
   end 
 end 
